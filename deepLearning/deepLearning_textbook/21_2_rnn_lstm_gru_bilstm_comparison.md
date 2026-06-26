@@ -1,4 +1,4 @@
-# 21-a. RNN, LSTM, GRU, BiLSTM 비교
+# 21-2. RNN, LSTM, GRU, BiLSTM 비교
 
 ## 왜 21장 뒤에 이 장을 배우는가
 
