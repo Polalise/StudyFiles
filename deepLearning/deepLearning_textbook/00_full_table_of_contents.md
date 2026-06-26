@@ -16,12 +16,12 @@
    - 실습: [03_loss_and_training.ipynb](./notebooks/03_loss_and_training.ipynb)
    - 손실 함수, 학습 방향, 오차를 줄이는 감각
 
-4. [Keras 기본 워크플로우](./04_keras_basic_workflow.md)
-   - 실습: [04_keras_basic_workflow.ipynb](./notebooks/04_keras_basic_workflow.ipynb)
+4. [Keras 기본 워크플로우](./04_1_keras_basic_workflow.md)
+   - 실습: [04_1_keras_basic_workflow.ipynb](./notebooks/04_1_keras_basic_workflow.ipynb)
    - `Sequential`, `Input`, `Dense`, `compile`, `fit`, `predict`
 
-4-a. [TensorFlow 저수준 학습 원리](./04_a_tensorflow_low_level_training.md)
-   - 실습: [04_a_tensorflow_low_level_training.ipynb](./notebooks/04_a_tensorflow_low_level_training.ipynb)
+4-2. [TensorFlow 저수준 학습 원리](./04_2_tensorflow_low_level_training.md)
+   - 실습: [04_2_tensorflow_low_level_training.ipynb](./notebooks/04_2_tensorflow_low_level_training.ipynb)
    - `fit()` 내부에서 일어나는 예측, 손실 계산, 기울기 계산, 가중치 업데이트
 
 5. [활성화 함수](./05_activation_functions.md)
@@ -32,12 +32,12 @@
    - 실습: [06_problem_types_and_loss_functions.ipynb](./notebooks/06_problem_types_and_loss_functions.ipynb)
    - 회귀, 이진 분류, 다중 분류와 손실 함수 매칭
 
-7. [EDA와 전처리](./07_eda_and_preprocessing.md)
-   - 실습: [07_eda_and_preprocessing.ipynb](./notebooks/07_eda_and_preprocessing.ipynb)
+7. [EDA와 전처리](./07_1_eda_and_preprocessing.md)
+   - 실습: [07_1_eda_and_preprocessing.ipynb](./notebooks/07_1_eda_and_preprocessing.ipynb)
    - 데이터 확인, 결측치, 스케일링, 데이터 누출 주의
 
-7-a. [KMeans 비지도학습 입문](./07_a_kmeans_unsupervised_intro.md)
-   - 실습: [07_a_kmeans_unsupervised_intro.ipynb](./notebooks/07_a_kmeans_unsupervised_intro.ipynb)
+7-2. [KMeans 비지도학습 입문](./07_2_kmeans_unsupervised_intro.md)
+   - 실습: [07_2_kmeans_unsupervised_intro.ipynb](./notebooks/07_2_kmeans_unsupervised_intro.ipynb)
    - 정답 `y`가 없을 때 데이터를 묶어보는 기본 비지도학습
 
 ## 2부. 표 데이터와 건강 위험 예측
@@ -50,46 +50,46 @@
    - 실습: [13_health_project_diabetes_baseline.ipynb](./notebooks/13_health_project_diabetes_baseline.ipynb)
    - 당뇨병 위험 예측 baseline, 스케일링, confusion matrix
 
-14. [임계값, Precision, Recall 이해하기](./14_threshold_precision_recall.md)
-   - 실습: [14_threshold_precision_recall.ipynb](./notebooks/14_threshold_precision_recall.ipynb)
+14. [임계값, Precision, Recall 이해하기](./14_1_threshold_precision_recall.md)
+   - 실습: [14_1_threshold_precision_recall.ipynb](./notebooks/14_1_threshold_precision_recall.ipynb)
    - threshold, precision, recall, F1, FN/FP 해석
 
-14-a. [Autoencoder 이상 탐지](./14_a_autoencoder_anomaly_detection.md)
-   - 실습: [14_a_autoencoder_anomaly_detection.ipynb](./notebooks/14_a_autoencoder_anomaly_detection.ipynb)
+14-2. [Autoencoder 이상 탐지](./14_2_autoencoder_anomaly_detection.md)
+   - 실습: [14_2_autoencoder_anomaly_detection.ipynb](./notebooks/14_2_autoencoder_anomaly_detection.ipynb)
    - reconstruction error와 threshold로 이상 데이터를 판단하는 흐름
 
 15. [당뇨병 예측 모델 개선과 실험 관리](./15_experiment_management_diabetes.md)
    - 실습: [15_experiment_management_diabetes.ipynb](./notebooks/15_experiment_management_diabetes.ipynb)
    - EarlyStopping, Dropout, 실험 결과표, 최종 모델 선택
 
-16. [당뇨병 예측 모델 해석하기](./16_interpreting_diabetes_model.md)
-   - 실습: [16_interpreting_diabetes_model.ipynb](./notebooks/16_interpreting_diabetes_model.ipynb)
+16. [당뇨병 예측 모델 해석하기](./16_1_interpreting_diabetes_model.md)
+   - 실습: [16_1_interpreting_diabetes_model.ipynb](./notebooks/16_1_interpreting_diabetes_model.ipynb)
    - permutation importance, 입력 변수 실험, 인과와 해석 구분
 
-16-a. [PCA와 SHAP 입문](./16_a_pca_shap_intro.md)
-   - 실습: [16_a_pca_shap_intro.ipynb](./notebooks/16_a_pca_shap_intro.ipynb)
+16-2. [PCA와 SHAP 입문](./16_2_pca_shap_intro.md)
+   - 실습: [16_2_pca_shap_intro.ipynb](./notebooks/16_2_pca_shap_intro.ipynb)
    - 차원 축소와 모델 설명 도구의 역할 구분
 
 17. [당뇨병 위험 예측 함수 만들기](./17_diabetes_prediction_function.md)
    - 실습: [17_diabetes_prediction_function.ipynb](./notebooks/17_diabetes_prediction_function.ipynb)
    - 모델, scaler, feature order 저장과 예측 함수
 
-18. [당뇨병 예측 프로젝트 포트폴리오 문서 만들기](./18_diabetes_project_portfolio.md)
-   - 실습: [18_diabetes_project_portfolio.ipynb](./notebooks/18_diabetes_project_portfolio.ipynb)
+18. [당뇨병 예측 프로젝트 포트폴리오 문서 만들기](./18_1_diabetes_project_portfolio.md)
+   - 실습: [18_1_diabetes_project_portfolio.ipynb](./notebooks/18_1_diabetes_project_portfolio.ipynb)
    - README 초안, 한계, 개선 방향, 발표용 요약
 
-18-a. [Streamlit 데모 입문](./18_a_streamlit_demo_intro.md)
-   - 실습: [18_a_streamlit_demo_intro.ipynb](./notebooks/18_a_streamlit_demo_intro.ipynb)
+18-2. [Streamlit 데모 입문](./18_2_streamlit_demo_intro.md)
+   - 실습: [18_2_streamlit_demo_intro.ipynb](./notebooks/18_2_streamlit_demo_intro.ipynb)
    - 노트북 결과를 포트폴리오용 입력/예측 데모로 연결
 
 ## 3부. 이미지 분류와 CNN
 
-9. [이미지 분류와 CNN 입문](./09_image_cnn_digits.md)
-   - 실습: [09_image_cnn_digits.ipynb](./notebooks/09_image_cnn_digits.ipynb)
+9. [이미지 분류와 CNN 입문](./09_1_image_cnn_digits.md)
+   - 실습: [09_1_image_cnn_digits.ipynb](./notebooks/09_1_image_cnn_digits.ipynb)
    - 이미지 배열, CNN, 합성곱과 풀링 입문
 
-9-a. [Fashion-MNIST CNN 퀴즈](./09_a_fashion_mnist_cnn_quiz.md)
-   - 실습: [09_a_fashion_mnist_cnn_quiz.ipynb](./notebooks/09_a_fashion_mnist_cnn_quiz.ipynb)
+9-2. [Fashion-MNIST CNN 퀴즈](./09_2_fashion_mnist_cnn_quiz.md)
+   - 실습: [09_2_fashion_mnist_cnn_quiz.ipynb](./notebooks/09_2_fashion_mnist_cnn_quiz.ipynb)
    - MNIST 다음 단계로 이미지 CNN 분류 복습
 
 10. [꽃 이미지 CNN 미니 프로젝트](./10_flower_cnn_mini_project.md)
@@ -104,8 +104,8 @@
    - 실습: [12_transfer_learning_flower.ipynb](./notebooks/12_transfer_learning_flower.ipynb)
    - MobileNetV2, `include_top=False`, feature extractor
 
-12-a. [GAN 입문](./12_a_gan_intro.md)
-   - 실습: [12_a_gan_intro.ipynb](./notebooks/12_a_gan_intro.ipynb)
+12-a. [GAN 입문](./12_3_gan_intro.md)
+   - 실습: [12_3_gan_intro.ipynb](./notebooks/12_3_gan_intro.ipynb)
    - 이미지를 분류하는 모델에서 이미지를 생성하는 모델로 확장
 
 12-1. [객체 탐지와 YOLO 입문](./12_1_object_detection_yolo.md)
@@ -126,12 +126,12 @@
    - 실습: [20_pm10_lstm_dataset.ipynb](./notebooks/20_pm10_lstm_dataset.ipynb)
    - window, `(samples, timesteps, features)`, MinMaxScaler
 
-21. [LSTM으로 PM10 다음 시간 예측하기](./21_pm10_lstm_forecasting.md)
-   - 실습: [21_pm10_lstm_forecasting.ipynb](./notebooks/21_pm10_lstm_forecasting.ipynb)
+21. [LSTM으로 PM10 다음 시간 예측하기](./21_1_pm10_lstm_forecasting.md)
+   - 실습: [21_1_pm10_lstm_forecasting.ipynb](./notebooks/21_1_pm10_lstm_forecasting.ipynb)
    - LSTM 회귀 모델, MAE/RMSE, `inverse_transform`
 
-21-a. [RNN, LSTM, GRU, BiLSTM 비교](./21_a_rnn_lstm_gru_bilstm_comparison.md)
-   - 실습: [21_a_rnn_lstm_gru_bilstm_comparison.ipynb](./notebooks/21_a_rnn_lstm_gru_bilstm_comparison.ipynb)
+21-2. [RNN, LSTM, GRU, BiLSTM 비교](./21_2_rnn_lstm_gru_bilstm_comparison.md)
+   - 실습: [21_2_rnn_lstm_gru_bilstm_comparison.ipynb](./notebooks/21_2_rnn_lstm_gru_bilstm_comparison.ipynb)
    - 같은 window 데이터로 순환 모델 계열 비교
 
 22. [PM10 예측: LSTM과 단순 Baseline 비교하기](./22_pm10_baseline_comparison.md)
